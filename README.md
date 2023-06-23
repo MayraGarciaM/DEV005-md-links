@@ -35,33 +35,34 @@ Instalación
 
 Para realizar la instalación de la libreria sigue los siguientes pasos:
 
-1. En la terminal de tu editor de codigo busca el directorio de tu proyecto
+1. En la terminal de tu editor de codigo busca el directorio de tu proyecto  
 2. Ejecuta el siguiente comando: `npm i md-links-mayrag`
 
 Modo de Uso:
 
 Para ejecutar las funciones de la librería puedes usar los siguientes comandos desde tu editor de codigo:
 
-1.Ejecutando el comando: `npm run validate` el cual retornara las siguiente información:
-  `text`: Texto que aparece dentro del link
-  `url`: URL encontrada
-  `absolutePath`: Ruta del archivo donde se encuentra el link
-  `statusCode`: Codigo de respuesta HTTP
-  `ok`: Mensaje de `fail` en caso de fallo u `ok`  en caso de exito
+1.Ejecutando el comando: `npm run validate` el cual retornara las siguiente información:  
+`text`: Texto que aparece dentro del link  
+`url`: URL encontrada  
+`absolutePath`: Ruta del archivo donde se encuentra el link  
+`statusCode`: Codigo de respuesta HTTP  
+`ok`: Mensaje de   
+`fail` en caso de fallo u `ok`  en caso de exito
 
-2. Ejecutando el comando: `npm run stats` el cual retorna la siguiente información:
-   `Total`: Número de links encontrados
-   `Unique`: Número de links unicos (Que no se repiten).
+2. Ejecutando el comando: `npm run stats` el cual retorna la siguiente información:  
+`Total`: Número de links encontrados  
+`Unique`: Número de links unicos (Que no se repiten).
 
-3. Ejecutando el comando: `npm run all` el cual retorna la siguiente información:
-   `Total`: Número de links encontrados
-   `Unique`:Número de links unicos (Que no se repiten)
-   `Broken`:Número de link rotos
+3. Ejecutando el comando: `npm run all` el cual retorna la siguiente información:  
+`Total`: Número de links encontrados  
+`Unique`:Número de links unicos (Que no se repiten)  
+`Broken`:Número de link rotos
 
-4. Ejecutando el comando: `npm run none` el cual retorna la siguiente información:
-   `text`:Texto que aparece dentro del link
-   `url`: URL encontrada
-   `absolutePath`: Ruta del archivo donde se encuentra el link
+4. Ejecutando el comando: `npm run none` el cual retorna la siguiente información:  
+`text`:Texto que aparece dentro del link  
+`url`: URL encontrada  
+`absolutePath`: Ruta del archivo donde se encuentra el link
 
 ## 4. Despliegue en NPM
 
